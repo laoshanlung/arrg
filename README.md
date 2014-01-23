@@ -30,7 +30,7 @@ pickThat('bear'); // now args becomes {what: 'bear', where: 'Finland'}, not sure
 Want more? Read `tests.js`
 
 ## Development
-Just read `Gruntfile.js`
+`Gruntfile.js` and `package.json` contain enough information
 
 ## License
 Who cares? (seriously?, contact me if you actually care)

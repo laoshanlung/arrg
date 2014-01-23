@@ -1,7 +1,7 @@
 {
   "name": "arrg",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "grunt-preprocess": "~4.0.0",
     "grunt": "~0.4.2",
