@@ -22,6 +22,7 @@
     "email": "laoshanlung@gmail.com"
   },
   "repository": {
+    "type": "git",
     "url": "https://github.com/laoshanlung/arrg.git"
   }
 }
