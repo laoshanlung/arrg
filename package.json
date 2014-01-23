@@ -1,0 +1,23 @@
+{
+  "name": "arrg",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "grunt-preprocess": "~4.0.0",
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.0",
+    "grunt-mocha": "~0.4.9",
+    "underscore": "~1.5.2",
+    "should": "~2.1.1",
+    "grunt-mocha-test": "~0.8.2"
+  },
+  "homepage": "https://github.com/laoshanlung/arrg",
+  "keywords": [
+    "arguments"
+  ],
+  "author": {
+    "name": "Tan Nguyen",
+    "email": "laoshanlung@gmail.com"
+  }
+}
