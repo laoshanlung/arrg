@@ -1,7 +1,7 @@
 {
   "name": "arrg",
   "description": "Unify arguments in the project",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "devDependencies": {
     "grunt-preprocess": "~4.0.0",
@@ -22,6 +22,6 @@
     "email": "laoshanlung@gmail.com"
   },
   "repository": {
-    "url": "https://github.com/laoshanlung/arrg"
+    "url": "https://github.com/laoshanlung/arrg.git"
   }
 }
