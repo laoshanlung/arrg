@@ -27,6 +27,8 @@ function pickThat() {
 pickThat('bear'); // now args becomes {what: 'bear', where: 'Finland'}, not sure if Finland has bears, though
 ```
 
+Want more? Read `tests.js`
+
 ## Development
 Just read `Gruntfile.js`
 
