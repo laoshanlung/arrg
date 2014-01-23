@@ -1,5 +1,6 @@
 {
   "name": "arrg",
+  "description": "Unify arguments in the project",
   "version": "0.1.0",
   "private": false,
   "devDependencies": {
@@ -19,5 +20,8 @@
   "author": {
     "name": "Tan Nguyen",
     "email": "laoshanlung@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/laoshanlung/arrg"
   }
 }
