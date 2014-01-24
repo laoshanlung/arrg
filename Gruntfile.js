@@ -18,6 +18,10 @@ module.exports = function(grunt) {
       amd: {
         src: 'src/amd.js',
         dest: 'build/arrg.amd.js'
+      },
+      direct: {
+        src: 'src/arrg.core.js',
+        dest: 'build/arrg.js'
       }
     },
 
@@ -28,6 +32,10 @@ module.exports = function(grunt) {
       amd : {
         src : 'build/arrg.amd.js',
         dest : 'build/arrg.amd.min.js',
+      },
+      direct: {
+        src : 'build/arrg.js',
+        dest : 'build/arrg.min.js',
       }
     },
 
@@ -50,8 +58,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('build', ['preprocess', 'jshint']);
+  grunt.registerTask('build', ['preprocess', 'jshint', 'uglify']);
   grunt.registerTask('test', ['build', 'mochaTest']);
-  grunt.registerTask('default', ['test', 'uglify']);
+  grunt.registerTask('default', ['test', 'build']);
 
 };
